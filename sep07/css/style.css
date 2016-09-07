@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+}
+
+header {
+  height: 85px;
+  background-color: rgba(20, 32, 54, 0.89);
+  color: white;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header ul {
+  margin: 0;
+}
+
+header li {
+  content: "";
+  display: inline-block;
+  padding: 30px;
+  box-sizing: border-box;
+  width: 15%;
+}
+
+header li a {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+  color: white;
+}
+
+}
+
+
+
+main {
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+div {
+  width: 100px;
+  height:100px;
+  float: left;
+  width: 100%;
+  n-right: 100px;
+}
+
+div:nth-of-type(1) {
+  background-color: rgb(255, 255, 255);
+}
+div:nth-of-type(2) {
+  background-color: hsl(0, 92%, 69%);
+}
+div:nth-of-type(3) {
+  background-color: rgb(255, 195, 106);
+}
+div:nth-of-type(4) {
+  background-color: rgb(247, 246, 110);
+}
+div:nth-of-type(5) {
+  background-color: hsl(109, 92%, 70%);
+}
+div:nth-of-type(6) {
+  background-color: hsl(217, 83%, 78%);
+}
+div:nth-of-type(7) {
+  background-color: hsl(291, 94%, 70%);
+}
+div:nth-of-type(8) {
+  background-color: hsl(0, 0%, 100%);
+}
+
+
+p {
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-size: 150%
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color:rgb(9, 72, 84);
+  position: fixed;
+  bottom: 0;
+}
+
+footer h2 {
+  text-align: center;
+  color: white;
+
+}
+
+footer small {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
