@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+p {
+  height: 500px;
+  background-color: hsl(177, 75%, 77%);
+}
+
+a {
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  width: 50px;
+  background-color: rgb(237, 103, 103);
+  border-radius: 100%;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+a:nth-child(odd) {
+  align-self: center;
+}
+
+a:nth-of-type(1) {
+  order: 1;
+}
+
+a:nth-of-type(2) {
+  order: 2;
+}
+
+
+a:nth-of-type(3) {
+  order: 5;
+}
