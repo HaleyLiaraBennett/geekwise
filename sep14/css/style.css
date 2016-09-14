@@ -1,0 +1,67 @@
+body {
+}
+
+section {
+  padding: 50px;
+}
+
+.wah {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wah div {
+  width: 50%;
+}
+
+.wah img {
+  float: left;
+  border-radius: 100%;
+}
+
+
+
+
+/*
+section {
+  flex-direction: column;
+  height: 500px;
+}
+
+.fc {
+  display: flex;
+}
+
+section > .fc {
+  /*flex-direction: row-reverse;
+}
+
+section div {
+  flex: 1;
+}
+section > div:last-child {
+  flex: 3;
+}
+section > div {
+  display: flex;
+}
+
+section div.one {
+  background-color: hsl(189, 89%, 67%);
+  flex: .30
+}
+
+section div.two, section div.tow {
+  background-color: hsl(246, 47%, 34%);
+  flex: .1;
+
+}
+section div.four, section div.five  {
+  background-color: hsl(0, 79%, 67%);
+  flex: 1;
+}
+
+section div.three, section div.six {
+  background-color: hsl(0, 0%, 100%);
+  flex: 1;
+}*/

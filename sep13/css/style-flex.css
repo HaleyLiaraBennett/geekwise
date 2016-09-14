@@ -4,8 +4,9 @@ body {
 
 p {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  flex-direction: column;
+  ;
+  justify-content: column;
   align-items: flex-start;
   align-content: flex-start;
   flex-wrap: wrap;
