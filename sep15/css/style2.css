@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  background-color: hsla(146, 89%, 85%, 0.39);
+  height: 85px;
+
+}
+
+header nav li {
+  display: inline-block;
+}
+
+img {
+  display: flex;
+  align-content: center;
+}
+
+section {
+  height: 400px;
+  background-color: hsl(268, 62%, 89%);
+  display: flex;
+  flex: 1;
+}
+
+article {
+  display: flex;
+  background-color: hsl(278, 39%, 50%);
+  flex: .5;
+  text-align: left;;
+  align-items: center;
+}
+
+main div.white {
+  background-color: hsl(203, 79%, 74%);
+  height: 200px;
+
+}
