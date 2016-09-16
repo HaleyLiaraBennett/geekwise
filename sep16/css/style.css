@@ -1,0 +1,37 @@
+body {
+
+}
+
+
+form, div {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+form {
+  background-color: hsl(304, 70%, 89%);
+}
+
+
+
+progress {
+  background-color: hsl(0, 77%, 59%);
+  border: 10px solid;
+  border-radius: 5px;
+  border-color: hsl(160, 8%, 21%);
+  height: 20px;
+  flex: .5;
+  width: 50%;
+}
+
+.arrow {
+  background-color: hsl(215, 36%, 69%);
+  flex-direction: space-around;
+  width: 25%;
+}
+
+.arrow a {
+  padding: 10px;
+  flex-wrap: wrap;
+}
