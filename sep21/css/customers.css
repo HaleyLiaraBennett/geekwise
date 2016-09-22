@@ -14,9 +14,10 @@ hr {
   border-top: none;
   border-right: none;
   border-left: none;
+  color: inherit;
 }
 section {
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   align-content: center;
   text-align: center;
@@ -25,14 +26,14 @@ section {
 }
 section article h1 {
   font-size: 30px;
-  color: inherit;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 article p {
-  color: inherit;
+  padding-bottom: 15px;
 }
-address {
-  text
+article address {
+font-style: normal;
+font-size: 12px
 }
 
 #circle img {
@@ -45,24 +46,22 @@ article hr {
   width: 100%;
 }
 address{
-  color: inherit;
   font-size: 70%;
 }
 div.left {
   position: absolute;
-  left: 30px;
+  left: 80px;
   bottom: 45%;
   font-size: 50px;
 }
 div.right {
   position: absolute;
-  right: 30px;
+  right: 80px;
   bottom: 45%;
   font-size: 50px;
 }
 div.chick {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   flex: 1;
   padding: 20px 0;
