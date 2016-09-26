@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+ header nav a {
+   margin: 10px;
+   padding: 5px;
+   border: solid .5px;
+   border-radius: 10px;
+ }
