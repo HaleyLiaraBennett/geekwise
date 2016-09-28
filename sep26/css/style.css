@@ -1,4 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Lato';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+
 
 body {
   font-family: 'Lato', sans-serif;
@@ -9,15 +11,29 @@ body {
 nav {
   background-color: hsl(269, 2%, 15%);
   position: fixed;
+  display: flex;
+  justify-content: space-between;
   width: 100%;
   top: 0;
 }
-nav li {
-  display: flex;
+nav h1 {
+  font-style: italic;
+  font-size: 30px;
+  margin-left: 80px;
 }
-nav li a {
+nav ul {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+}
+nav ul li a {
   color: inherit;
   text-decoration: none;
+  color: white;
+  padding: 0px 50px;
+  font-size: 18px;
+
 }
 main {
   display: flex;
@@ -27,11 +43,12 @@ main {
 header {
   background-image: url(../img/banner.jpg);
   background-size: cover;
-  padding: 75px;
+  padding: 90px;
   color: white;
 }
 header h1 {
   font-weight: 900;
+  font-size: 40px;
 }
 header a {
   color: white;
@@ -42,10 +59,15 @@ header a {
 article {
   padding: 40px 30px;
   color: inherit;
+  margin-left: 40px;
+}
+article h2 {
+  font-size: 30px;
 }
 article p {
   color: hsl(0, 0%, 20%);
   padding-bottom: 30px;
+  font-size: 18px;
 }
 article a {
   color: inherit;
@@ -57,16 +79,23 @@ article a {
   display: flex;
   text-align: center;
   flex: 1;
+  background-color: hsla(0, 0%, 94%, 0.69);
 }
 #one div.pic div {
   padding: 10px 30px;
 }
 #one div p {
   color: hsl(0, 0%, 20%);
+  font-size: 18px;
 }
 #two {
   display: flex;
   text-align: left;
+  margin-left: 30px;
+}
+#two i {
+  font-size: 50px;
+  color: hsl(0, 0%, 74%);
 }
 #two div {
   padding: 40px;
@@ -78,6 +107,7 @@ article a {
   color: hsl(0, 0%, 20%);
   padding-right: 40px;
   padding-bottom: 40px;
+  font-size: 18px;
 }
 #two a {
   text-decoration: none;
@@ -88,7 +118,49 @@ article a {
 footer {
   background-color: hsl(0, 100%, 67%);
   color: white;
+  padding-bottom: 80px;
 }
 footer h5 {
   font-size: 20px;
+  font-size: 30px;
+  margin-left: 40px;
+}
+form div {
+  display: flex;
+  width: 90%;
+  margin-left: 40px;
+}
+form label {
+  flex: 1;
+  font-size: 20px;
+}
+form textarea {
+  width: 100%;
+  min-height:250px;
+}
+form input[type="text"] {
+  margin-right: 10px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    background-color: inherit;
+    padding: 5px;
+    border: 3px solid;
+    color: hsla(0, 0%, 100%, 0.69);
+    margin-bottom: 50px;
+}
+form input[type="submit"] {
+  border: none;
+  padding: 10px 30px;
+  color: white;
+  background-color: hsla(353, 20%, 64%, 0);
+  border: 3px solid;
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+footer small {
+  margin-left: 40px;
+  font-size: 15px;
+  color: hsla(0, 0%, 100%, 0.46);
 }

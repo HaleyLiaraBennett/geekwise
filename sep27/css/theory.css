@@ -1,0 +1,187 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css';
+
+body {
+  color: black;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: 10px solid;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-color: hsl(214, 46%, 48%);
+}
+nav h1 {
+  margin-left: 80px;
+}
+nav ul {
+  display: inline-flex;
+  align-content: center;
+  list-style: none;
+  margin-right: 50px;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  color: inherit;
+  margin-right: 10px;
+}
+header {
+    color: white;
+    background-image: url(../img/banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 150px;
+    text-align: center;
+}
+header h2 p {
+  color: inherit;
+}
+header h2 {
+  font-size: 60px;
+}
+header p {
+  margin-left: 50px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+#one {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#one div.one {
+  display: flex;
+  margin-left: 20px;
+}
+#one div.one div {
+  padding: 60px;
+}
+#one div.one div h3 {
+  font-size: 20px;
+  color: hsl(214, 46%, 48%);
+}
+#one div.one div.bord {
+  border: 1px solid;
+  border-top: none;
+  border-bottom: none;
+  border-color: hsla(0, 0%, 0%, 0.2);
+}
+#one a {
+  background-color: hsl(214, 46%, 48%);
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+#two {
+  background-color: hsl(214, 46%, 48%);
+  padding-top: 20px;
+  padding-bottom: 90px;
+  color: white;
+  width: 100%;
+}
+#two div.bleh {
+ text-align: center;
+}
+#two h4 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+#two div.people {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#two div.people div {
+  border: .5px solid;
+  border-color: hsla(0, 0%, 100%, 0.32);
+  padding: 30px;
+  text-align: center;
+}
+#two div.people div h5 {
+  font-size: 23px;
+  margin-bottom: 0;
+}
+#two div.people div img {
+  border-radius: 100%;
+  flex: 1;
+  padding-top: 25px;
+}
+article div.tree {
+  text-align: center;
+}
+article div.tree h4 {
+  font-size: 40px;
+  margin-bottom: 0;
+  color: hsl(214, 46%, 48%);
+}
+article div.tree p {
+  color: hsla(0, 0%, 0%, 0.44);
+}
+article div.contain {
+  display: flex;
+  text-align: left;
+  margin-left: 50px;
+  padding-top: 40px;
+}
+article div.contain div {
+  padding-left: 10px;
+}
+article div.contain div img {
+  width: 90%;
+}
+article div.contain div h3 {
+  font-size: 23px;
+  color: hsl(214, 46%, 48%);
+}
+
+article div.contain div p {
+  margin-right: 50px;
+  font-size: 17px;
+  margin-bottom: 40px;
+  color: hsla(0, 0%, 0%, 0.44);
+}
+article a {
+  background-color: hsl(214, 46%, 48%);
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+}
+article hr {
+  margin-top: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: hsla(0, 0%, 0%, 0.2);
+}
+footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+footer small {
+  margin-left: 50px;
+  color: hsla(0, 0%, 0%, 0.2);
+}
+footer div.icon {
+  margin-right: 50px;
+}
+footer div.icon i {
+  font-size: 20px;
+  margin-left: 20px;
+  color: hsl(214, 46%, 48%);
+}

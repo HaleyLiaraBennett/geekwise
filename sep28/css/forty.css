@@ -1,0 +1,13 @@
+body {
+
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+section {
+  width: 100%;
+}
+section article.one {
+  background-image: url(img/pic01.jpg);
+}
