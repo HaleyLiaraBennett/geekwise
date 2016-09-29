@@ -1,13 +1,52 @@
 body {
-
+  margin: 0;
+  padding: 0;
 }
 main {
   display: flex;
   flex-direction: column;
 }
-section {
-  width: 100%;
+nav {
+  background-color: hsl(255, 64%, 51%);
+  display: flex;
+  justify-content: space-between;
 }
-section article.one {
-  background-image: url(img/pic01.jpg);
+header {
+  color: white;
+  background-image: url(../img/banner.jpg);
+  background-size: cover;
+  padding: 100px;
+}
+header hr {
+  color: white;
+  height: 2px;
+  background-color: white;
+}
+header p {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  border: solid 2px;
+  padding: 10px 20px;
+}
+article {
+  display: flex;
+  background-color: hsl(32, 100%, 57%);
+}
+article div.blue {
+  position: absolute;
+}
+article div.word {
+  color: white;
+  font-size: 20px;
+  z-index: 100;
+  position: absolute;
+  top: 35%;
+  left: 30px;
+}
+article div.purple {
+  position: absolute;
 }
