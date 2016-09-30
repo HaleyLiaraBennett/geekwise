@@ -1,0 +1,26 @@
+body {
+
+}
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+nav  {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-left: 10px;
+}
+header {
+  background-image: url(../img/);
+}
+header p {
+  padding-left: 60px;
+  padding-right: 60px;
+}

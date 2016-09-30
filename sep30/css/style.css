@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+}
+nav {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1px;
+  background-color: hsl(0, 0%, 12%);
+}
+nav img {
+  margin-left: 20px;
+  padding: 20px;
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  margin-right: 40px;
+
+}
+nav ul li {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+header {
+  background-image: url(../img/home-slider-1-slide-3.jpg);
+  padding: 80px;
+  background-size: cover;
+}
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 200px;
+}
+
+ul.grid {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+ul.grid li {
+  display: flex;
+  width: 25%;
+}
+article {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+article h2 {
+  padding-left: 25px;
+  font-size: 50px;
+}
+article div.row {
+  display: inline-flex;
+  justify-content: space-around;
+  padding: 0 40px;
+}
+article div.row div {
+  padding: 5px;
+}
+
+article div.row div p {
+  margin-right: 15px;
+}
+article div.row div a {
+  text-decoration: none;
+  color: hsl(217, 100%, 70%);
+}
+section {
+  background-image: url(../img/bg-image-1.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 300px;
+}
+section div.bleh {
+  flex: .5;
+  margin-top: 30px;
+}
+section h4 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+hr.blue {
+  height: 10px;
+  background-color: hsl(217, 100%, 70%);
+  border: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 20px;
+  width: 100px;
+
+}
+section hr {
+  margin-top: 0;
+  width: 80%;
+  margin-right: 400px;
+  color: hsl(0, 0%, 83%);
+  margin-bottom: 40px;
+}
+section div.bleh div p {
+  font-size: 18px;
+  margin-bottom: 5px;
+  width: 480px;
+}
+section div.bleh div a {
+  font-size: 20px;
+  text-decoration: none;
+  color: hsl(217, 100%, 70%);
+}
+progress {
+  background-color: hsl(0, 0%, 94%);
+  border: none;
+  height: 8px;
+  width: 480px;
+}
+#popular {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+#popular div.hey {
+   display: flex;
+}
+#popular div.hey div{
+  display: flex;
+  flex-direction: column;
+}
+#popular div.heytwo {
+   display: flex;
+}
+#popular div.heytwo div{
+  display: flex;
+  flex-direction: column;
+}
