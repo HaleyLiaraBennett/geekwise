@@ -1,0 +1,126 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:400,500,700,900';
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-image: url(../img/home-slider-1-slide-3.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+/* nav and drop down */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav h1 {
+  background-image: url(../img/logo-229x39.png);
+  background-repeat: no-repeat;
+}
+nav h1 a {
+  display: block;
+  color: transparent;
+  width: 229px;
+  height: 39px;
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  background-color: hsla(0, 0%, 0%, 0.66);
+}
+nav ul ul li a {
+  padding: 0px;
+  padding-right: 90px;
+}
+nav ul ul li {
+  padding: 10px;
+}
+nav > ul > li {
+  position: relative;
+}
+nav > ul > li:hover ul {
+  display: block;
+}
+nav > ul > li::after {
+  content: '/';
+  display: inline-block;
+  margin: 0 10px
+}
+nav ul li:last-child::after {
+  content: none;
+}
+nav li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* car title */
+header h2 {
+  margin: auto;
+  font-size: 12vw;
+}
+
+/* Gallery */
+/*GRID*/
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+#gallery > div {
+  width: calc( 100% / 4 );
+  height: 28vw;
+  overflow: hidden;
+  position: relative;
+}
+#gallery > div > img {
+  width: 100%;
+  transform: scale(1.25);
+}
+#gallery > div:hover div {
+  border-radius: 0%;
+  transform: scale(1);
+  opacity: 1;
+}
+#gallery div div {
+  transition: all 500ms ease-out;
+  border-radius: 40%;
+  transform: scale(.75);
+  opacity: 0;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: hsla(198, 100%, 58%, 1)
+}
+#gallery div div a, p {
+  color: white;
+  text-decoration: none;
+}
+#gallery div div a:hover {
+  text-decoration: underline;
+}
+#gallery div div img {
+  padding-bottom: 30px;
+}
