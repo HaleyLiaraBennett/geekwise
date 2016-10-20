@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'BrushScript';
+  src: url('http://matthewhigley.com/fonts/BrushScriptStd.eot');
+  src: url('http://matthewhigley.com/fonts/BrushScriptStd.eot?#iefix') format('embedded-opentype'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.woff') format('woff'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.ttf')  format('truetype'),
+       url('http://matthewhigley.com/fonts/BrushScriptStd.svg#eb21f6604ba28d5573abad1c01255830') format('svg');
+  font-style:   normal;
+  font-weight:  400;
+}
+body {
+  margin: 0;
+  padding: 5vh 20vw;
+  background-color:
+  hsl(0, 61%, 32%);
+}
+p {
+  color: hsl(60, 3%, 12%);
+}
+hr {
+  border:none;
+  height: 2px;
+  background-color: hsl(60, 100%, 97%);
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFF0;
+  border: solid 5px;
+  border-color: hsl(60, 3%, 12%);
+  height: 146px;
+}
+nav {
+  border: 5px solid;
+  border-color: hsl(60, 3%, 12%);
+  border-bottom: none;
+}
+#index {
+  border: 5px solid;
+  border-color: hsl(60, 3%, 12%);
+  border-top: none;
+}
+header h1 {
+  text-align: center;
+  font-size: 6vh;
+  padding: 0 0 0 15px;
+  margin: 0;
+}
+header div {
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  border: dotted 3px;
+  border-left: none;
+  border-right: none;
+  border-color: hsla(340, 2%, 28%, 0.49);
+}
+nav ul li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  font-family: 'BrushScript';
+  font-size: 3.9vh;
+  color: hsl(0, 37%, 46%);
+}
+nav {
+  padding-bottom: 50px;
+  background-color: hsl(60, 100%, 97%)
+}
+#index {
+  display: flex;
+  padding: 0 2vw;
+  background: hsl(60, 100%, 97%);
+}
+#index div.info {
+  flex: 2.5;
+  padding-right: 80px;
+}
+#index img {
+  float: right;
+}
+#index div.info article:nth-of-type(1) {
+  margin-bottom: 140px;
+}
+#index div.info b {
+  font-family: 'BrushScript';
+  font-size: 4.2vh;
+  line-height: 2;
+  color: hsl(0, 37%, 46%);
+}
+#index div.info p {
+  line-height: 1;
+}
+#index div.box {
+  display: flex;
+  flex-direction: column;
+  flex: 1.5;
+}
+#index div.box div.one, .two, .three, .four {
+  height: 25vh;
+  border: solid 2px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  position: relative;
+  text-align: center;
+}
+#index div.one h1, .two h1, .three h1, .four h1 {
+  color: hsl(0, 37%, 46%);
+  font-family: 'BrushScript';
+  position: absolute;
+  bottom: 135px;
+  left: 10px;
+  padding: 0 5px;
+  background-color:
+   hsl(60, 100%, 97%);
+}
+#index div.one, .three p, .four p  {
+  padding: 0 40px;
+    line-height: 1;
+}
+#index div.two {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-right: 30px;
+}
+#index a {
+  color: hsl(0, 59%, 50%);
+}
