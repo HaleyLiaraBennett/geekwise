@@ -1,0 +1,116 @@
+html {
+  background-color: black;
+  background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+  background-repeat: no-repeat, repeat-x;
+  background-position: center top;
+}
+body {
+  color: white;
+  margin: 0;
+  padding: none;
+}
+section {
+  background-image: url(../img/leftbg.jpg);
+  background-repeat: no-repeat;
+  background-position: left top;
+  float: left;
+  width: 64%;
+}
+section img {
+  float: left;
+  padding-right: 15px;
+}
+aside {
+  width: 34%;
+  float: right;
+  background-image: url(../img/rightbg.png), url(../img/mainbg.jpg);
+  background-repeat: no-repeat, repeat-x;
+  background-position: left bottom;
+}
+.contain {
+  width: 800px;
+  margin: auto;
+  z-index: 10;
+}
+#mega {
+  position: relative;
+  width: 100%;
+  display: flex;
+  background-color: hsl(9, 83%, 9%);
+}
+.pump {
+  position: absolute;
+  right: 300px;
+  bottom: 183px;
+  width: 184px;
+}
+.pump img {
+  float: left;
+}
+.pump img:first-child {
+  margin-left: 11px;
+}
+#mega .contain {
+  display: flex;
+}
+#mega .contain div {
+  padding: 20px;
+}
+@media screen and (max-width: 799px) {
+    .contain {
+      width: 690px;
+    }
+    .pump {
+      left: 78%;
+      bottom: 186px;
+      width: 184px;
+    }
+}
+
+
+
+@media screen and (max-width: 450px) {
+    .contain {
+      width: 100%;
+    }
+    header {
+      text-align: center;
+    }
+    header ul {
+      list-style: none;
+    }
+    header a{
+      color: white;
+    }
+    section {
+      width: 100%;
+      float: none;
+      z-index: 20;
+      padding-bottom: 50px;
+    }
+    section img {
+      float: none;
+      width: 100%;
+    }
+    aside {
+      display: none;
+    }
+    #mega {
+      padding-bottom: 20px;
+    }
+    #mega .contain div {
+      padding: 0 20px;;
+    }
+    #mega .contain {
+      flex-direction: column;
+      text-align: center;
+    }
+    .pump {
+      width: 20px;
+      right: 0px;
+      bottom: 472px;
+      width: 184px;
+    }
+
+
+    }
