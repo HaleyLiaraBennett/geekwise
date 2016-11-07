@@ -1,0 +1,106 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+  margin: 0;
+  padding: none;
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0);
+}
+nav ul {
+  display: inline-flex;
+  list-style: none;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image:linear-gradient(
+    rgba(0, 0, 0, 0.52),
+    rgba(0, 0, 0, 0.3)
+    ),
+  url(../img/pretty.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header div {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  font-size: 22vh;
+}
+header p {
+  font-size: 5vh;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  min-height: 30vh;
+  padding: 20px;
+  justify-content: space-around;
+}
+.about {
+  background-image: url(../img/mountain.jpg);
+  background-size: cover;
+  background-position: center;
+  height: calc(50vh - 50px);
+}
+.about div:first-child {
+  color: white;
+  width: 30%;
+  padding: ;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  background-color:rgba(150, 150, 150, 0.52);
+
+}
+.about div:last-child {
+  color: white;
+  width: 65%;
+  text-align: center;
+  background-color:rgba(241, 241, 241, 0.30);
+}
+.about div:first-child p,.about div:last-child p {
+  padding: 0 30px;
+  font-size: 125%;
+}
+#blogs {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+#blogs i {
+  color: white;
+  font-size: 50px;
+}
+#blogs div:first-child {
+  background-color: rgb(52, 76, 177);
+  flex: 1;
+}
+#blogs div:last-child {
+  background-color: rgb(98, 98, 98);
+  flex: 1;
+}
+.awards {
+    height: calc(50vh - 50px);
+    background-image: url(../img/road.jpg);
+    background-size: cover;
+    background-position: bottom;
+    color: white;
+}
+.awards div:first-child {
+  width: 45%;
+  font-size: 8vh;
+  text-align: center;
+}
+.awards div:last-child {
+  width: 55%;
+}
