@@ -33,10 +33,10 @@ header div {
   color: white;
 }
 header h1 {
-  font-size: 22vh;
+  font-size: 12vh;
 }
 header p {
-  font-size: 5vh;
+  font-size: 2vh;
 }
 section {
   display: flex;

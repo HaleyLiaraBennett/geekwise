@@ -1,0 +1,299 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+ @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+body {
+  margin: 0;
+  padding: none;
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  background-color: hsla(0, 0%, 14%, 0.63);
+  position: fixed;
+  text-align: center;
+  padding: 30px 20px;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  transition: all 250ms ease-in-out;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 3vh;
+}
+nav:hover {
+  transform: scale(1.25);
+  background-color: rgb(60, 60, 60);
+}
+nav a:hover {
+  transform: scale(1.25);
+}
+header {
+  font-family: 'Amatic SC', cursive;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image:
+  linear-gradient(
+    rgba(255, 255, 255, 0),
+    rgba(24, 41, 56, 0.55)
+    ),
+  url(../img/hipster.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+header div {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+header h1 {
+  font-size: 20vh;
+}
+header p {
+  font-size: 8vh;
+  color: white;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  min-height: 30vh;
+  padding: 20px;
+  justify-content: space-around;
+}
+.about {
+  background-image: url(../img/room.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.about div:first-child img {
+  height: 100px;
+  width: 100px;
+  border: solid 1px;
+  border-radius: 100%;
+}
+.about div:first-child {
+  color: white;
+  width: 30%;
+  padding: ;
+  margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.50);
+
+}
+.about div:last-child {
+  color: white;
+  width: 65%;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.50);
+}
+.about div:first-child p,.about div:last-child p {
+  padding: 0 30px;
+  font-size: 125%;
+}
+#blogs {
+    background-color: rgb(34, 55, 77);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+#blogs i {
+  color: white;
+  font-size: 50px;
+  padding: 10px 0;
+transition: all 450ms ease-in-out;
+}
+#blogs .first {
+  flex: 1;
+}
+#blogs .first div:first-child {
+  flex: 1;
+  border-bottom: 1px solid white;
+}
+#blogs .first div:last-child  {
+  flex: 1;
+
+}
+#blogs .last {
+  border-left: 1px solid white;
+  flex: 1;
+}
+#blogs .last div:first-child {
+  flex: 1;
+  border-bottom: 1px solid white;
+}
+#blogs .last div:last-child  {
+  flex: 1;
+}
+#blogs .first div, #blogs .last div {
+  transition: all 450ms ease-in-out;
+}
+#blogs .first div:hover i, #blogs .last div:hover i {
+  transform: scale(1.25);
+  color: rgb(34, 55, 77);
+}
+#blogs .first div:hover, #blogs .last div:hover  {
+  background-color: rgb(255, 255, 255);
+}
+.awards {
+    display: flex;
+    justify-content: space-around;
+    height: calc(50vh - 50px);
+    background-image: url(../img/paint.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+.awards div:first-child {
+  width: 45%;
+  font-size: 8vh;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.50);
+}
+.awards div:last-child {
+  width: 45%;
+  color: rgb(38, 38, 38);
+}
+.awards div:last-child ul {
+  font-family: 'Amatic SC', cursive;
+  list-style: none;
+  font-size: 5.5vh;
+}
+#pic {
+  display: flex;
+  flex-direction: column;
+  color: rgb(159, 159, 159);
+  background-color: rgb(34, 55, 77);
+  padding: 20px;
+}
+#pic > div {
+    margin-left: 25%;
+  margin-bottom: 20px;
+  width: 45%;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  transition: all 250ms ease-in-out;
+}
+#pic > div:hover {
+  transform: scale(1.05);
+}
+.top, .bottom {
+  font-family: 'Amatic SC', cursive;
+
+  display: flex;
+  justify-content: space-between;
+}
+.top div {
+  padding: 10px;
+  overflow: hidden;
+  height: 50px;
+  width: 50px;
+}
+.top div img {
+  border: solid 1px rgb(255, 255, 255);
+  border-radius: 15px;
+}
+.top i {
+  font-size: 5vh;
+  padding: 10px;
+}
+.top i:hover {
+  color: rgb(115, 115, 115);
+  cursor: pointer;
+}
+#pic div img {
+  width: 100%;
+}
+#pic p {
+  padding: 0 20px;
+  color: black;
+}
+.bottom {
+  padding: 0 10px 0 0;
+}
+.bottom p {
+  color: rgb(115, 114, 114);
+}
+.bottom i, .bottom b {
+  font-size: 2.5vh;
+  padding: 10px;
+}
+.bottom i:hover {
+  cursor: pointer;
+}
+#taffy {
+  color: white;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0 ),
+    rgba(255, 255, 255, 0.17)
+    ),
+  url(../img/road.jpg);
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.work {
+  text-align: center;
+  height: 10vh;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+.list ul {
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.61);
+  padding: 20px 50px;
+}
+.list ul li {
+    margin-bottom: 15px;
+}
+.list a {
+  text-decoration: none;
+  color: inherit;
+}
+.list ul:hover {
+  transform: scale(1.15);
+}
+.list a:hover {
+  text-decoration: underline;
+}
+footer {
+  background-color: rgb(34, 55, 77);
+  color: white;
+}
+
+@media screen and (max-width: 520px) {
+  #pic {
+    margin: 0;
+    padding: none;
+  }
+  #pic div {
+    width: 100%;
+  }
+  #pic > div {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+    border-radius: 1px;
+  }
+  .top div img, .top i {
+    display: none;
+    height: 1px;
+  }
+}
