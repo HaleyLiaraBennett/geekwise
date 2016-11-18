@@ -43,12 +43,14 @@ a {
   padding: 100px 100px;
 }
 #three {
-  height: 300px;
   align-items: center;
   display: flex;
   flex-direction: row;
-  color: black;
+  color: rgba(96, 89, 99, 0.73);
   text-align: left;
+}
+#three a {
+  color: black;
 }
 #three h1 {
   font-size: 4.5vh;
@@ -56,14 +58,20 @@ a {
 #three p {
   font-size: 2.5vh;
 }
-#three article {
-  width: 50%;
+#three article:nth-of-type(1) {
+  width: 60%;
+ content: "";
+  box-sizing: border-box;
+  clear: both;
+  padding: 0 60px;
 }
 #three article:nth-of-type(2) {
   flex-direction: column;
+  width: 40%;
 }
 .contain {
   display: flex;
+  height: 200px;
 }
 .contain:nth-of-type(1) {
   border-bottom: solid 1px;
