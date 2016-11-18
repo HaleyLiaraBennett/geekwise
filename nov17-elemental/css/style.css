@@ -1,0 +1,110 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+ @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200');
+body {
+  background-color: hsl(0, 0%, 96%);
+  padding: 0 13vw;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+section {
+  border-radius: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+header {
+    padding: 30px 0;
+}
+header .fa {
+  background-color: hsl(198, 64%, 66%);
+  font-size: 50px;
+  color: white;
+  padding: 20px 35px;
+  border-radius: 5px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  border: solid 1px;
+  padding: 10px 20px;
+  border-radius: 2px;
+}
+#two {
+  color: white;
+  background-image:
+  url(../img/pic01.jpg);
+  background-size: cover;
+}
+#two {
+  font-size: 4vh;
+}
+#two div {
+  padding: 100px 100px;
+}
+#three {
+  height: 300px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: black;
+  text-align: left;
+}
+#three h1 {
+  font-size: 4.5vh;
+}
+#three p {
+  font-size: 2.5vh;
+}
+#three article {
+  width: 50%;
+}
+#three article:nth-of-type(2) {
+  flex-direction: column;
+}
+.contain {
+  display: flex;
+}
+.contain:nth-of-type(1) {
+  border-bottom: solid 1px;
+}
+.contain div {
+  width: 50%;
+  border-left: solid 1px black;
+  border-width: 100%;
+}
+#four {
+  display: flex;
+  flex-direction: column;
+}
+#four h1 {
+  margin: 0;
+}
+#four article {
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+#four article:nth-of-type(1) {
+  background-image: url(../img/pic02.jpg);
+  background-position: left;
+  display: flex;
+  flex-direction: row-reverse;;
+}
+#four article div {
+  background-color: rgb(85, 158, 156);
+  width: 60%;
+  padding: 60px 20px;
+}
+#four .help {
+  text-align: left;
+  content: "";
+  box-sizing: border-box;
+  clear: both;
+}
+.help h1{
+  font-size: 5vh;
+}
+.help p {
+  font-size: 2.5vh;
+}
