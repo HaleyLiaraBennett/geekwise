@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+$('.fadein img:gt(0)').hide();
+
+setInterval(function () {
+    $('.fadein :first-child').fadeOut()
+                             .next('img')
+                             .fadeIn()
+                             .end()
+                             .appendTo('.fadein');
+}, 4000); // 4 seconds
+});
+</script>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+
+    <nav>
+      <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+    </nav>
+    <div class="workit">
+        <p>
+          <i class="fa fa-chevron-circle-down" aria-hidden="true"></i>
+        </p>
+    </div>
+  </header>
+  <main>
+      <section id="about">
+        <div class="big">
+            <div class="dark">
+                <div>
+                  <img src="img/please.jpg" alt="" />
+                </div>
+                <p><b>Haley Bennett</b></p>
+            </div>
+          <div class="zoom">
+              <p>
+               Whatever life holds in store for me, I will never forget these words: "With great power comes great responsibility." This is my gift, my curse. Who am I? I'm Spider-man.
+               If you believe it!
+              Naruto! Naruto!
+              Believe it! Believe it!
+              Here I am with my Ninja Clan!
+              Ninja Clan, here we stand!
+              Naruto, I'm on my way,
+              Naruto, I'll be okay!
+              Getting ready to fight on set!
+              Come on best friends by my side!
+              Sasuke, is really cool!
+              Sakura, the beautiful!
+              </p>
+
+            </div>
+          <div class="end">
+            <b>11/9/2016</b>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="big">
+          <div class="dark">
+              <div>
+                <img src="img/please.jpg" alt="" />
+              </div>
+              <p><b>Motivation</b></p>
+          </div>
+          <div class="zoom">
+              <p>
+                My motivation in life is to have enough money to afford an apartment with Marisa Gonzalez. We will have a big fluffy dog that's lazy and I will bring my demon cat Archer. No curtains allowed becuase Archer will tear them down though.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+
+          </div>
+          <div class="end">
+              <b>11/9/2016</b>
+              <i class="fa fa-heart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </section>
+
+      <section class="awards">
+          <div>
+            <h1>Achievements</h1>
+            <p>
+              I've won everything cuase i the best and no one should ever think otherwise.
+            </p>
+          </div>
+          <div>
+            <ul>
+              <li>Survived AP Bio</li>
+              <li>Has a cat</li>
+              <li>Read a lot of books</li>
+              <li>Can kinda draw</li>
+              <li>read all of Coiling Dragon</li>
+            </ul>
+          </div>
+      </section>
+
+      <div id="blogs">
+        <div>
+            <h1>Contact</h1>
+        </div>
+      <div class="help">
+          <div class="first">
+            <div>
+              <i class="fa fa-tumblr-square" aria-hidden="true"></i>
+            </div>
+            <div>
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </div>
+          </div>
+            <div class="last">
+                <div>
+                  <i class="fa fa-spotify" aria-hidden="true"></i>
+                </div>
+                <div>
+                  <i class="fa fa-github-alt" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      <div id="pic">
+        <div class="left">
+          <div class="contain">
+              <div class="top">
+                  <div>
+                      <img src="img/please.jpg" alt="" />
+                  </div>
+                <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+          <img src="img/realcat.jpg" alt="" />
+          <p>
+          I guess i'd put pics of my work and links to them here idk
+          </p>
+          <div class="bottom">
+            <b>50$</b>
+            <div>
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              <i class="fa fa-comment-o" aria-hidden="true"></i>
+              <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+              <i class="fa fa-heart" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+        <div class="contain">
+            <div class="top">
+                <div>
+                    <img src="img/please.jpg" alt="" />
+                </div>
+              <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <img src="img/lamp.jpg" alt="" />
+        <p>
+          This is a lamp and succulent...enjoy? adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="bottom">
+                <b>80$</b>
+          <div>
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="contain">
+          <div class="top">
+              <div>
+                  <img src="img/please.jpg" alt="" />
+              </div>
+            <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <img src="img/ava.jpg" alt="" />
+      <p>
+        Lo class="contain"rem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <div class="bottom">
+              <b>5$</b>
+        <div>
+          <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+          <i class="fa fa-comment-o" aria-hidden="true"></i>
+          <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+          <i class="fa fa-heart"
+           aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="middle">
+    <div class="contain">
+        <div class="top">
+            <div>
+                <img src="img/please.jpg" alt="" />
+            </div>
+              <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <img src="img/Floatyboi.gif" alt="" />
+        <p>
+          ahhh gifs work!!!!!! Behold the moving picture!!!!!!!!!!
+        </p>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="bottom">
+          <b>20$</b>
+          <div>
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="contain">
+          <div class="top">
+              <div>
+                  <img src="img/please.jpg" alt="" />
+              </div>
+            <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <img src="img/road.jpg" alt="" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <div class="bottom">
+              <b>25$</b>
+        <div>
+          <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+          <i class="fa fa-comment-o" aria-hidden="true"></i>
+          <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+          <i class="fa fa-heart" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="contain">
+        <div class="top">
+            <div>
+                <img src="img/please.jpg" alt="" />
+            </div>
+          <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <img src="img/draw.jpg" alt="" />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <div class="bottom">
+            <b>15$ notes</b>
+      <div>
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+        <i class="fa fa-comment-o" aria-hidden="true"></i>
+        <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+        <i class="fa fa-heart" aria-hidden="true"></i>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="right">
+    <div class="contain">
+        <div class="top">
+            <div>
+                <img src="img/please.jpg" alt="" />
+            </div>
+              <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <img src="img/desktop.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        <div class="bottom">
+          <b>20$</b>
+          <div>
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+            <i class="fa fa-heart" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="contain">
+          <div class="top">
+              <div>
+                  <img src="img/please.jpg" alt="" />
+              </div>
+            <i class="fa fa-times" aria-hidden="true"></i>
+      </div>
+      <img src="img/pretty.jpg" alt="" />
+      <p>
+        I took this photo myself so I'm like absurdly proud of this. LOOK IT PRETTY, THE SUN IT PRETTY THE TREES, THE ROCKS!!!!
+      </p>
+      <div class="bottom">
+              <b>70$</b>
+        <div>
+          <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+          <i class="fa fa-comment-o" aria-hidden="true"></i>
+          <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+          <i class="fa fa-heart" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="contain">
+        <div class="top">
+            <div>
+                <img src="img/please.jpg" alt="" />
+            </div>
+          <i class="fa fa-times" aria-hidden="true"></i>
+    </div>
+    <img src="img/dog.jpg" alt="" />
+    <img src="img/dog2.jpg" alt="" />
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+    <div class="bottom">
+            <b>2 notes</b>
+      <div>
+        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+        <i class="fa fa-comment-o" aria-hidden="true"></i>
+        <i class="fa fa-circle-o-notch" aria-hidden="true"></i>
+        <i class="fa fa-heart" aria-hidden="true"></i>
+      </div>
+    </div>
+    </div>
+    </div>
+      </div>
+      <footer>
+          <small>Copyright @ Unsplash.it</small>
+      </footer>
+  </main>
+</body>
+</html>
