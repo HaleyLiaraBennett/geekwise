@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Pacifico');
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+nav a {
+  text-decoration: none;
+  color: rgb(135, 135, 135);
+}
+nav h1 {
+  font-family: 'Pacifico', cursive;
+  color: rgb(217, 90, 62);
+  font-size: 4vh;
+  padding: 0px 500px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+}
+nav ul {
+  padding-top: 30px;
+  list-style: none;
+}
+ul li {
+  padding: 10px 0px;
+  width: 85%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav div.open {
+  left: 0;
+}
+nav div {
+  position: absolute;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100vh;
+  transition: all 250ms ease-out;
+  background-color:  rgb(29, 125, 161);
+}
+nav div .fa-times {
+  color: white;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+nav div i:hover {
+  color: rgb(170, 170, 170);
+}
+.fa-times {
+  font-size: 20px;
+}
+header {
+  background-image: url(../img/banner.jpg) !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 190px 0px 125px;
+}
+
+.contain h2 {
+  font-size: 5vh;
+  font-weight: 700;
+  color: rgb(34, 138, 152);
+  margin-bottom: 14px;
+}
+.contain h3 {
+  font-size: 3vh;
+  color: rgb(88, 88, 88);
+}
+.contain p {
+  font-weight: 300;
+  margin-bottom: 60px;
+  width: 38%;
+  line-height: 2;
+  text-align: center;
+}
+.contain a {
+  text-decoration: none;
+  background-color: rgb(217, 90, 62);
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: white;
+}
