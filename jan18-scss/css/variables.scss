@@ -1,0 +1,24 @@
+$primary: rgb(153, 216, 247);
+$secondary-color: slategrey;
+$tertiary-color: pink;
+
+//headline
+$hl-size: 400px;
+$hl-font: sans-serif;
+$hl-color: hsl(217, 67%, 56%);
+
+//button
+$btn-color: hsl(217, 67%, 56%);
+$btn-dark: hsl(217, 67%, 36%);
+$btn-lite: hsl(217, 67%, 76%);
+
+//rainbow list
+$li-red: hsl(0, 100%, 50%);
+$li-ora: adjust-hue($li-red, 25deg);
+$li-yel: adjust-hue($li-red, 50deg);
+$li-blu: adjust-hue($li-red, 210deg);
+$li-gre: adjust-hue($li-red, 150deg);
+$li-pur: adjust-hue($li-red, 280deg);
+
+$colors: $li-red $li-ora $li-yel $li-gre $li-blu $li-pur;
+$i: 1;
