@@ -1,0 +1,11 @@
+@mixin border-style($border-color) {
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  box-shadow: 0 10px 10px $primary-color;
+}
+@mixin el-calc($elnum, $facolor) {
+  width: calc(100% / #{$elnum});
+  .fa {
+    color:$facolor;
+  }
+}

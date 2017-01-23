@@ -1,0 +1,8 @@
+%border-style {
+  border: 1px solid $border-style;
+  border-radius: 10px;
+  @extend %background;
+}
+%background {
+  background-color: hsl(220, 69%, 60%);
+}
