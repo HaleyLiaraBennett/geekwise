@@ -1,18 +1,4 @@
 <!DOCTYPE html>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript">
-$(function() {
-$('.fadein img:gt(0)').hide();
-
-setInterval(function () {
-    $('.fadein :first-child').fadeOut()
-                             .next('img')
-                             .fadeIn()
-                             .end()
-                             .appendTo('.fadein');
-}, 4000); // 4 seconds
-});
-</script>
 
 <html lang="en">
 <head>
