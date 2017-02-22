@@ -1,6 +1,8 @@
 var input = document.querySelector('input[type="text"]');
 var inputBtn = document.querySelector('input[type="submit"]');
 
+  console.log(input);
+
 inputBtn.addEventListener('click', function(e){
   e.preventDefault();
   var userName = input.value;
